@@ -7,5 +7,49 @@
 }
 
 .search-button {
-  margin: 10px;
+  margin: 20px;
+}
+.formbox {
+  width: 500px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+/* navigation */
+.navigate {
+  display: flex;
+  justify-content: right;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+#second-link {
+  margin-left: 20px;
+}
+
+/* advanced search */
+.search-all-words {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.adv-formbox {
+  width: 500px;
+}
+
+.row {
+  display: flex;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.adv-search-button {
+  margin-top: 50px;
 }
