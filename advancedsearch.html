@@ -11,23 +11,26 @@
         <a href="index.html">Home</a>
         <a id="second-link" href="imagesearch.html">Images</a>
       </div>
-    
-    <div class="search-all-words">
+    <h3>Find pages with...</h3>
+    <div class="search-adv">
         <div class="row">
             <div class="column left">
-                <div>all these words:</div>
-                <div>this exact word or phrase:</div>
-                <div>any of these words:</div>
-                <div>none of these words:</div>
+                <div class="search-desc">all these words:</div>
+                <div class="search-desc">this exact word or phrase:</div>
+                <div class="search-desc">any of these words:</div>
+                <div class="search-desc">none of these words:</div>
             </div>
             <div class="column right">
                 <form action="https://www.google.com/search">
-                    <input class="adv-formbox" type="text" name="q" />
+                    <input class="adv-formbox" type="text" name="as_q" />
+                    <input class="adv-formbox" type="text" name="as_epq" />
+                    <input class="adv-formbox" type="text" name="as_oq" />
+                    <input class="adv-formbox" type="text" name="as_eq" />
             </div>
         </div>
-    </div> 
+    </div>
+    <div class="adv-search-button"><input id="btn" type="submit" value="Advanced Search" /> 
     </form>
-    <div class="adv-search-button"><input type="submit" value="Google Advanced Search" />
   </body>
 </html>
 
